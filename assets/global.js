@@ -284,6 +284,7 @@ class MenuDrawer extends HTMLElement {
   }
 
   openMenuDrawer(summaryElement) {
+    console.log('Is this happening?');
     setTimeout(() => {
       this.mainDetailsToggle.classList.add('menu-opening');
     });
